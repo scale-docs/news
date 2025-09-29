@@ -72,11 +72,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/blog/";
               },
-            },{id: "post-scale-liquidity",
+            },{id: "post-market-making-scale",
         
-          title: "Scale Liquidity",
+          title: "Market Making SCALE",
         
-        description: "",
+        description: "How we reshaped the Liquidity for SCALE token",
         section: "Posts",
         handler: () => {
           
