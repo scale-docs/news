@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-scale-liquidity",
+        
+          title: "Scale Liquidity",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2025/scale-liquidity/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
