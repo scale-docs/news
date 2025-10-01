@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/news/blog/2025/scale-liquidity/";
           
         },
+      },{id: "post-introducing-scale-farm",
+        
+          title: "Introducing, Scale.Farm",
+        
+        description: "A new era begins ― Trenches.Fund is launching Scale.Farm",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2025/scale-farm-relaunch/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
