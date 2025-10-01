@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Introducing, Scale.Farm 
 date: 2025-08-30 00:00:00
 description: A new era begins ― Trenches.Fund is launching Scale.Farm
