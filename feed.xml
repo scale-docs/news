@@ -1,4 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/news/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/news/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-10-01T18:18:39+00:00</updated><id>https://alshedivat.github.io/news/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Market Making SCALE</title><link href="https://alshedivat.github.io/news/blog/2025/scale-liquidity/" rel="alternate" type="text/html" title="Market Making SCALE"/><published>2025-09-26T13:37:00+00:00</published><updated>2025-09-26T13:37:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/scale-liquidity</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/scale-liquidity/"><![CDATA[<h1 id="scale-liquidity">SCALE Liquidity</h1> <p>Liquidity that enables trading SCALE is provided by both The Community &amp; The Protocol itself (aka. Protocol-owned Liquidity, or “PoL”).</p> <h2 id="market-making-strategy-of-pol">Market-making strategy of PoL</h2> <p>Traditionally, most of the liquidity resided in the SCALE/ETH vAMM (v2 or k=xy “classic”) pool, and was mostly from PoL.</p> <p>As part of the transition to the new <a href="https://scale.farm">Scale.Farm</a> branding, all PoL was restructured. v2 LP was <a href="https://basescan.org/tx/0xb7aeb556660f94bddf44d3ed0a85893ec1c765ec07c443820bd1091eff5de3df">reduced</a> on 30th August, constituting 8.78 ETH &amp; 1.48 million SCALE (35k + 35k = <code class="language-plaintext highlighter-rouge">$</code>70k). It was then re-added as a Concentrated Liquidity position on the <a href="https://eliteness.network/e3/8453-3">E3 DEX</a>, with the SCALE to be sold progressively between the prices 0.000_045 ETH to 0.000_097 ETH per SCALE, along with a Floor Order to buyback SCALE between the prices 0.000_004 ETH till 0.000_002 SCALE.</p> <p>This approach makes sure that as the protocol starts its revival phase, protocol doesnt give away SCALE tokens cheaply, while being able to sell its SCALE holding earmarked for Market Making for ETH, which will be used to bolster the treasury and build a strong backing per SCALE.</p> <p>At the same time, the buyback floor makes sure that the Treasury doesnt let the price of SCALE fall under where it was before the Scale.Farm pivot, which in USD terms is around <code class="language-plaintext highlighter-rouge">$</code>0.015 - <code class="language-plaintext highlighter-rouge">$</code>0.008, which reflects the price of SCALE in July 2025. This is huge Buy Wall of <strong><code class="language-plaintext highlighter-rouge">$</code>42</strong>,000 virtually is enough to buyback more than half of the whole liquid circulating supply of SCALE, which gives all present holders a lot of confidence.</p> <p>In parallel, each week, Scale.Farm allocates 1% of all emissions towards the Classic Liquidity pool, which currently stands at <code class="language-plaintext highlighter-rouge">$</code>16,000 (<code class="language-plaintext highlighter-rouge">$</code>8k+<code class="language-plaintext highlighter-rouge">$</code>8k), incentivizing the community to build up the Tradutional Pool2 depth.</p> <h2 id="thin-liquidity--price-impacts">“Thin” Liquidity &amp; Price Impacts</h2> <p>As of today, as price of SCALE floats near <code class="language-plaintext highlighter-rouge">$</code>0.05 mark, which is 0.000_012 ETH, traders would experience significant price impacts for smaller trades, as the “active” liquidty comes only from the Classic pool with <code class="language-plaintext highlighter-rouge">$</code>8k + <code class="language-plaintext highlighter-rouge">$</code>8k. The bulk of the liquidity remains in the CL position at E3, which kicks in only after prices reach <code class="language-plaintext highlighter-rouge">$</code>0.18, that is, 0.000_045 ETH per SCALE.</p> <p>For reference, each <code class="language-plaintext highlighter-rouge">$</code>1 moves price up by 0.025%. That is to say, each <code class="language-plaintext highlighter-rouge">$</code>100 buy moves price up by 2.5%, and each <code class="language-plaintext highlighter-rouge">$</code>1000 will move price up by 25%. This happens till the price moves into the healthy zone above <code class="language-plaintext highlighter-rouge">$</code>0.18, whereafter price impacts &amp; slippage are reduced significantly.</p> <p>As of today, there is roughly a “threshold” of 2 ETH or <code class="language-plaintext highlighter-rouge">$</code>8000, which is the amount of buy pressure needed to move into this low slippage zone. This <code class="language-plaintext highlighter-rouge">$</code>8000 quantizes the <strong>Demand</strong> for SCALE in the market, coupled with the weekly minted emissions, minus the buybacks from the Recycling Wallet.</p> <p>Each week, roughly 35000 SCALE are minted (after the recycling). To be deemed healthy, there needs to be a minimum buy pressure of nearly <code class="language-plaintext highlighter-rouge">$</code>1500-2000 each week at current prices, and anything in excess of that pushes us more closer to the healthy zone, reducing the <code class="language-plaintext highlighter-rouge">$</code>8000 gap at present.</p> <h2 id="i-want-to-buy-but-price-impact-is-so-high">“I want to buy but price impact is so high!”</h2> <p>As explained above, this is by design, and not by accident. Our mission is make SCALE an asset worth holding, something that grows in value over time (instead of decaying as per the norm in crypto!)</p> <p>For that, we need to craft an organic, sustained demand for SCALE. And our setup lets us measure just that, indicating whether the market wants more SCALE or not.</p> <p>So far, the market has indicated a good demand, moving the price from <code class="language-plaintext highlighter-rouge">$</code>0.007 to <code class="language-plaintext highlighter-rouge">$</code>0.05, marking an increase of nearly 7x in 3 months since July. the market to</p> <p>So here’s a list of What you can do to buy SCALE at these excitingly low prices today:</p> <h3 id="1-setup-a-limit-order">1. Setup a Limit order</h3> <p>Our partners OpenOcean, Odos &amp; 1inch provide Limit Orders for buying SCALE with your preferred assets. We suggest you create orders to buy SCALE at the prices you prefer. Your assets (like eth or usdc) that you want to buy SCALE with will stay in your own wallet till the orders are filled, and you can attach an expiry date/refresh your orders. Its a good passive way to buy here without slippage</p> <h3 id="2-market-buy-from-sellers">2. Market Buy from sellers</h3> <p>See a red candle on the chart? Reverse it to secure your entry. Such opportunities are a great way to transfer SCALE from non-believers to those who believe in our long-term vision.</p> <h3 id="3-just-ape-in">3. Just ape in!</h3> <p>Last option is to just yolo in. You know it takes only 2 ETH to 4x the price from here. Keep in mind that when buying with <code class="language-plaintext highlighter-rouge">$</code>100 here, you will see that you are losing -1.25% of value. But once your buy goes through, You will be the literal force that moves the price by 2.5%. After your market buy, the tokens you hold will be worth +2.5% more!</p> <p>On the Aggregate, <code class="language-plaintext highlighter-rouge">$</code>8000 of buys would appear to be buying <code class="language-plaintext highlighter-rouge">$</code>4000 of SCALE in the trading apps, but once that order goes through, the SCALE you bought for <code class="language-plaintext highlighter-rouge">$</code>8000 would be worth <code class="language-plaintext highlighter-rouge">$</code>16000 as price moves up 4x from your buy-in!</p> <h2 id="end-game">End game.</h2> <p>The long-term plan for SCALE is to “paint” a chart that looks organic, has no clear “top”, and although bobbing up and down, it overall keeps climbing up and up only, similar to how mature charts like the S&amp;P500 look.</p> <p>The idea is to manifest a project, that is so sound that the emissions it prints are a force that bring more “permanent value” to the project, instead of fleeting cycles of rewards that people forget, leaving the project high early on, but dry later on.</p> <p>A great parallel is the mother of Scale, EQUAL. It has paid upwards of <code class="language-plaintext highlighter-rouge">$</code>12 Million to its holders so far, yet today, it has hardly a <code class="language-plaintext highlighter-rouge">$</code>2 Million in Fully Diluted Valuation.</p> <p>Learning from our experiences, knowing what went wrong, and what could have been done better at a “fundamental” level to avert such situations in the future of SCALE. It draws heavily from our designs at TRENCHES &amp; beyond.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="scale"/><category term="liquidity"/><summary type="html"><![CDATA[How we reshaped the Liquidity for SCALE token]]></summary></entry><entry><title type="html">Introducing, Scale.Farm</title><link href="https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch/" rel="alternate" type="text/html" title="Introducing, Scale.Farm"/><published>2025-08-30T00:00:00+00:00</published><updated>2025-08-30T00:00:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch/"><![CDATA[<h1 id="news-from-the-frontline">NEWS from the frontline!</h1> <p>“Deep in the trenches” by TRENCHES.Fund</p> <p>Trenches.Fund has wholly acquired Scale™ in a mutually beneficial deal with Equalizer, structured in a way that lets Equalizer team focus on Sonic, dedicating towards MEGA: Make Equalizer Great Again, while we craft a better future for every SCALE holder in the trenches!</p> <p>As part of the takeover process, the new Scale treasury has received $30,000 in USDC along with all the SCALE, veSCALE &amp; SCALE LP from Equalizer’s Treasury, as well as complete ownership to all the code, infra &amp; other related hard &amp; soft assets such as socials, other accounts, etc. and everything else.</p> <p>Equalizer on Sonic will get read access to all the updates (we’ve already been working on closely) made to the existing Equalizer v5 frontend codebase, including the Manual CL UI, from the new Scale Team, until Scale migrates to a newer app. The ownership of all the remaining USDC, ETH &amp; OP, including grants from Optimism Foundation, held by the previous Equalizer Treasury on Base shall remain with Equalizer Treasury. This ensures ample cash reserves to help fund future needs of Equalizer Team on Sonic.</p> <p>All-in-all, this new arrangement will make Equalizer much stronger than before, freeing up resources from maintaining presence on Base to channel all efforts on gaining back its market share on Sonic.</p> <p>We want to say a special Thank You to Hoops and the Equalizer team for the guidance &amp; making this deal possible.</p> <p>A long-list of changes has been lined up for improving Scale’s financial model, aimed towards sustainable long-term value preservation, especially as we enter the Tail Emissions phase at the onset of our 3rd Year in the coming weeks.</p> <p>Exciting times &amp; more alpha ahead!</p> <p>visit Scale Farm here <a href="https://scale.farm">click this</a></p> <p><img src="https://scale.farm/scale/scale-police-banner.png" alt=""/></p>]]></content><author><name></name></author><category term="news"/><summary type="html"><![CDATA[A new era begins ― Trenches.Fund is launching Scale.Farm]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://alshedivat.github.io/news/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/plotly</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/news/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/news/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-10-02T01:39:44+00:00</updated><id>https://alshedivat.github.io/news/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Market Making SCALE</title><link href="https://alshedivat.github.io/news/blog/2025/scale-liquidity/" rel="alternate" type="text/html" title="Market Making SCALE"/><published>2025-09-26T13:37:00+00:00</published><updated>2025-09-26T13:37:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/scale-liquidity</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/scale-liquidity/"><![CDATA[<h1 id="scale-liquidity">SCALE Liquidity</h1> <p>Liquidity that enables trading SCALE is provided by both The Community &amp; The Protocol itself (aka. Protocol-owned Liquidity, or “PoL”).</p> <h2 id="market-making-strategy-of-pol">Market-making strategy of PoL</h2> <p>Traditionally, most of the liquidity resided in the SCALE/ETH vAMM (v2 or k=xy “classic”) pool, and was mostly from PoL.</p> <p>As part of the transition to the new <a href="https://scale.farm">Scale.Farm</a> branding, all PoL was restructured. v2 LP was <a href="https://basescan.org/tx/0xb7aeb556660f94bddf44d3ed0a85893ec1c765ec07c443820bd1091eff5de3df">reduced</a> on 30th August, constituting 8.78 ETH &amp; 1.48 million SCALE (35k + 35k = <code class="language-plaintext highlighter-rouge">$</code>70k). It was then re-added as a Concentrated Liquidity position on the <a href="https://eliteness.network/e3/8453-3">E3 DEX</a>, with the SCALE to be sold progressively between the prices 0.000_045 ETH to 0.000_097 ETH per SCALE, along with a Floor Order to buyback SCALE between the prices 0.000_004 ETH till 0.000_002 SCALE.</p> <p>This approach makes sure that as the protocol starts its revival phase, protocol doesnt give away SCALE tokens cheaply, while being able to sell its SCALE holding earmarked for Market Making for ETH, which will be used to bolster the treasury and build a strong backing per SCALE.</p> <p>At the same time, the buyback floor makes sure that the Treasury doesnt let the price of SCALE fall under where it was before the Scale.Farm pivot, which in USD terms is around <code class="language-plaintext highlighter-rouge">$</code>0.015 - <code class="language-plaintext highlighter-rouge">$</code>0.008, which reflects the price of SCALE in July 2025. This is huge Buy Wall of <strong><code class="language-plaintext highlighter-rouge">$</code>42</strong>,000 virtually is enough to buyback more than half of the whole liquid circulating supply of SCALE, which gives all present holders a lot of confidence.</p> <p>In parallel, each week, Scale.Farm allocates 1% of all emissions towards the Classic Liquidity pool, which currently stands at <code class="language-plaintext highlighter-rouge">$</code>16,000 (<code class="language-plaintext highlighter-rouge">$</code>8k+<code class="language-plaintext highlighter-rouge">$</code>8k), incentivizing the community to build up the Tradutional Pool2 depth.</p> <h2 id="thin-liquidity--price-impacts">“Thin” Liquidity &amp; Price Impacts</h2> <p>As of today, as price of SCALE floats near <code class="language-plaintext highlighter-rouge">$</code>0.05 mark, which is 0.000_012 ETH, traders would experience significant price impacts for smaller trades, as the “active” liquidty comes only from the Classic pool with <code class="language-plaintext highlighter-rouge">$</code>8k + <code class="language-plaintext highlighter-rouge">$</code>8k. The bulk of the liquidity remains in the CL position at E3, which kicks in only after prices reach <code class="language-plaintext highlighter-rouge">$</code>0.18, that is, 0.000_045 ETH per SCALE.</p> <p>For reference, each <code class="language-plaintext highlighter-rouge">$</code>1 moves price up by 0.025%. That is to say, each <code class="language-plaintext highlighter-rouge">$</code>100 buy moves price up by 2.5%, and each <code class="language-plaintext highlighter-rouge">$</code>1000 will move price up by 25%. This happens till the price moves into the healthy zone above <code class="language-plaintext highlighter-rouge">$</code>0.18, whereafter price impacts &amp; slippage are reduced significantly.</p> <p>As of today, there is roughly a “threshold” of 2 ETH or <code class="language-plaintext highlighter-rouge">$</code>8000, which is the amount of buy pressure needed to move into this low slippage zone. This <code class="language-plaintext highlighter-rouge">$</code>8000 quantizes the <strong>Demand</strong> for SCALE in the market, coupled with the weekly minted emissions, minus the buybacks from the Recycling Wallet.</p> <p>Each week, roughly 35000 SCALE are minted (after the recycling). To be deemed healthy, there needs to be a minimum buy pressure of nearly <code class="language-plaintext highlighter-rouge">$</code>1500-2000 each week at current prices, and anything in excess of that pushes us more closer to the healthy zone, reducing the <code class="language-plaintext highlighter-rouge">$</code>8000 gap at present.</p> <h2 id="i-want-to-buy-but-price-impact-is-so-high">“I want to buy but price impact is so high!”</h2> <p>As explained above, this is by design, and not by accident. Our mission is make SCALE an asset worth holding, something that grows in value over time (instead of decaying as per the norm in crypto!)</p> <p>For that, we need to craft an organic, sustained demand for SCALE. And our setup lets us measure just that, indicating whether the market wants more SCALE or not.</p> <p>So far, the market has indicated a good demand, moving the price from <code class="language-plaintext highlighter-rouge">$</code>0.007 to <code class="language-plaintext highlighter-rouge">$</code>0.05, marking an increase of nearly 7x in 3 months since July. the market to</p> <p>So here’s a list of What you can do to buy SCALE at these excitingly low prices today:</p> <h3 id="1-setup-a-limit-order">1. Setup a Limit order</h3> <p>Our partners OpenOcean, Odos &amp; 1inch provide Limit Orders for buying SCALE with your preferred assets. We suggest you create orders to buy SCALE at the prices you prefer. Your assets (like eth or usdc) that you want to buy SCALE with will stay in your own wallet till the orders are filled, and you can attach an expiry date/refresh your orders. Its a good passive way to buy here without slippage</p> <h3 id="2-market-buy-from-sellers">2. Market Buy from sellers</h3> <p>See a red candle on the chart? Reverse it to secure your entry. Such opportunities are a great way to transfer SCALE from non-believers to those who believe in our long-term vision.</p> <h3 id="3-just-ape-in">3. Just ape in!</h3> <p>Last option is to just yolo in. You know it takes only 2 ETH to 4x the price from here. Keep in mind that when buying with <code class="language-plaintext highlighter-rouge">$</code>100 here, you will see that you are losing -1.25% of value. But once your buy goes through, You will be the literal force that moves the price by 2.5%. After your market buy, the tokens you hold will be worth +2.5% more!</p> <p>On the Aggregate, <code class="language-plaintext highlighter-rouge">$</code>8000 of buys would appear to be buying <code class="language-plaintext highlighter-rouge">$</code>4000 of SCALE in the trading apps, but once that order goes through, the SCALE you bought for <code class="language-plaintext highlighter-rouge">$</code>8000 would be worth <code class="language-plaintext highlighter-rouge">$</code>16000 as price moves up 4x from your buy-in!</p> <h2 id="end-game">End game.</h2> <p>The long-term plan for SCALE is to “paint” a chart that looks organic, has no clear “top”, and although bobbing up and down, it overall keeps climbing up and up only, similar to how mature charts like the S&amp;P500 look.</p> <p>The idea is to manifest a project, that is so sound that the emissions it prints are a force that bring more “permanent value” to the project, instead of fleeting cycles of rewards that people forget, leaving the project high early on, but dry later on.</p> <p>A great parallel is the mother of Scale, EQUAL. It has paid upwards of <code class="language-plaintext highlighter-rouge">$</code>12 Million to its holders so far, yet today, it has hardly a <code class="language-plaintext highlighter-rouge">$</code>2 Million in Fully Diluted Valuation.</p> <p>Learning from our experiences, knowing what went wrong, and what could have been done better at a “fundamental” level to avert such situations in the future of SCALE. It draws heavily from our designs at TRENCHES &amp; beyond.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="scale"/><category term="liquidity"/><summary type="html"><![CDATA[How we reshaped the Liquidity for SCALE token]]></summary></entry><entry><title type="html">SCALE Emissions</title><link href="https://alshedivat.github.io/news/blog/2025/emissions/" rel="alternate" type="text/html" title="SCALE Emissions"/><published>2025-09-21T13:37:00+00:00</published><updated>2025-09-21T13:37:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/emissions</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/emissions/"><![CDATA[<p>gmgm</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div&gt;
+	&lt;div class="echarts"&gt;
+    	&lt;div id="echart-1" class="echart" style="height:70vh"&gt;&lt;/div&gt;
+    	&lt;div id="echart-2" class="echart" style="height:70vh"&gt;&lt;/div&gt;
+    	&lt;div id="echart-3" class="echart" style="height:70vh"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+		&lt;script src="https://ftm.guru/ethers-5.2.umd.min.js" type="application/javascript"&gt;&lt;/script&gt;
+	    &lt;script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"&gt;&lt;/script&gt;
+	    &lt;script&gt;
+</code></pre></div></div> <p>eo0 = { toolbox: { feature: { dataView: { show: true, readOnly: false }, magicType: { show: true, type: [‘line’, ‘bar’] }, restore: { show: true }, saveAsImage: { show: true }, }, }, tooltip: { trigger: ‘axis’, axisPointer: { type: ‘cross’, label: { backgroundColor: ‘#6a7985’ } } }, legend: { type: ‘scroll’ , top: 30}, xAxis: {type:’time’}, yAxis: [{type:’value’},{type:’value’}], }</p> <p>async function main() { /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// // old emi chart elapsedIndex= 2 rd = (new Array(6)).fill(0); rd = rd.map((e,i)=&gt;1758153600e3 + 7<em>86400e3</em>i) // time, elapsed, upcoming, usd elapsed, usd potential rd = rd.map((e,i)=&gt;([e, (i&lt;elapsedIndex?200:0), (i&lt;elapsedIndex?0:200), (i&lt;elapsedIndex ? 200<em>0.05</em>(1+(Math.random()-0.5)/2 ) : 0)])) rd = rd.map((e,i,a)=&gt;[…e, (i&gt;=elapsedIndex?a[elapsedIndex-1][3]:0)]) // usd potential</p> <p>eo_tvl_the = { …eo0 , title: {left: ‘center’, top: 10, text: “Reward Rates: History &amp; Projection”}, series: [ { name: ‘SCALE per Day (elapsed)’, type: ‘bar’, smooth: true, emphasis: { focus: ‘series’ }, data: rd.map(i=&gt;([i[0],i[1]])), stack: “in SCALE”, itemStyle:{color:’#fddd60’,opacity:1} }, { name: ‘USD per Day (elapsed)’, type: ‘bar’, smooth: true, emphasis: { focus: ‘series’ }, data: rd.map(i=&gt;([i[0],i[3]])), stack: “in USD”, yAxisIndex: 1, itemStyle:{color:’#4992ff’,opacity:1} }, { name: ‘SCALE per Day (assured)’, type: ‘bar’, smooth: true, emphasis: { focus: ‘series’ }, data: rd.map(i=&gt;([i[0],i[2]])), stack: “in SCALE”, itemStyle:{color:’#fddd60’,opacity:1} }, { name: ‘USD per Day (potential)’, type: ‘bar’, smooth: true, emphasis: { focus: ‘series’ }, data: rd.map(i=&gt;([i[0],i[4]])), stack: “in USD”, yAxisIndex: 1, itemStyle:{color:’#4992ff’,opacity:0.5} }, ] } echart1 = echarts.init(document.getElementById(‘echart-1’),’dark’); echart1.setOption(eo_tvl_the); */</p> <p>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// /* // scale revenues dl_fees = (await (await fetch(“https://api.llama.fi/summary/fees/scale?dataType=dailyFees”)).json()).totalDataChart; console.log(dl_fees); dl_revn = (await (await fetch(“https://api.llama.fi/summary/fees/scale?dataType=dailyRevenue”)).json()).totalDataChart; dl_brib = (await (await fetch(“https://api.llama.fi/summary/fees/scale?dataType=dailyBribesRevenue”)).json()).totalDataChart;</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eo_frb = {
+  		...eo0 ,
+  		title: {left: 'center', top: 10, text: "Historical Fees, Revenue, Bribes"},
+  		series: [
+		{
+  			name: 'Fees from Classic pools',
+  			type: 'bar',
+  			//smooth: true,
+  			emphasis: { focus: 'series' },
+  			data: dl_fees.map(i=&gt;( [i[0]*1e3 , i[1]] )),
+		},
+		{
+  			name: 'Revenue from Classic pools',
+  			type: 'bar',
+  			//smooth: true,
+  			emphasis: { focus: 'series' },
+  			data: dl_revn.map(i=&gt;( [i[0]*1e3 , i[1]] )),
+  			stack: 'All Revenue',
+		},
+		{
+  			name: 'Revenue from non-Classic Pools &amp; all Bribes',
+  			type: 'bar',
+  			//smooth: true,
+  			emphasis: { focus: 'series' },
+  			data: dl_brib.map(i=&gt;( [i[0]*1e3 , i[1]] )),
+  			stack: 'All Revenue',
+		},
+		{
+  			name: 'All Revenue',
+  			type: 'line',
+  			//smooth: true,
+  			emphasis: { focus: 'series' },
+  			data: dl_brib.map(i=&gt;( [i[0]*1e3 , i[1]] )),
+  			//stack: 'All Revenue',
+		},
+  		],
+  		dataZoom: [
+		{
+  			type: 'slider',
+  			show: true,
+  			xAxisIndex: [0],
+  			start: Math.max(dl_fees.length, dl_revn.length, dl_brib.length) - 15 ,
+  			end: Math.max(dl_fees.length, dl_revn.length, dl_brib.length)
+		},
+		{
+  			type: 'inside',
+  			xAxisIndex: [0],
+		},
+		{
+  			type: 'inside',
+  			yAxisIndex: [0],
+		}
+  		],
+  		legend: {
+		...eo0.legend,
+		show:true,
+		selected:{
+  			'Fees from Classic pools': false,
+  			'Revenue from Classic pools',
+  			'Revenue from non-Classic Pools &amp; all Bribes',
+		}
+  		}
+}
+
+echart1 = echarts.init(document.getElementById('echart-1'),'dark'); echart1.setOption(eo_frb); */ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// // emissions chart
+ehd = (
+	await (
+		(new ethers.Contract(
+			"0x73E01Ae0F263ac26F40558c51Cb57137944b3937",
+			["function fullEmissionsHistory() external view returns(uint[5][] memory)"],
+			(new ethers.providers.JsonRpcProvider("https://mainnet.base.org"))
+		))
+		.fullEmissionsHistory()
+	)
+)
+.map( (i,iid) =&gt; [
+	Number(i[0]), //id	0
+	Number(i[1])*1e3, //ts	1
+	Number(i[2])/1e18, //m	2
+	Number(i[3])/1e18, //d	3
+	Number(i[4])/1e18, //p	4
+	Number(i[3])/1e18 * 0.02, //team	5
+	Number(i[3])/1e18 * 0.01, //pool2	6
+	Number(i[3])*1.03/1e18 - Number(i[2])/1e18, //recylced	7
+	Number(i[2])/1e18 * Number(i[4])/1e18, //usd_m	8
+	Number(i[3])/1e18 * Number(i[4])/1e18, //usd_d	9
+	Number(i[3])/1e18 * 0.02 * Number(i[4])/1e18, //usd_team	10
+	Number(i[3])/1e18 * 0.01 * Number(i[4])/1e18, //usd_pool2	11
+	( Number(i[3])*1.03/1e18 - Number(i[2])/1e18 ) * Number(i[4])/1e18, //usd_recylced	12
+	0, //totalSupply = totalMinted	13
+	0, //usd_totalMinted	14
+	0, //FDV = totalSupply x price	15
+	0, //recycled	16
+	0, //usd_recycled	17
+] )
+.map( e =&gt; { // manually adjust team emission changes (should fall into bpg ideally, as these extra were lp bribed to farmers to compensate reverese rebase)
+	if(e[1]==1695859200*1e3) { // ep 0 - GENESIS
+		// all zeros by default
+		e[2] = 10e6; // genesis mint
+		//3.6m airdrop, 4.9m eco nft, 0.5m treasury, 1m liquidity @ $0.019 @ $1641/ETH @ 11.614 ETH + 1m SCALE
+		e[3] = 3.6e6; //dist = airdrop
+		e[4] = 0.019; //price
+		e[5] = 4.9e6+ 0.5e6;//team
+		e[6] = 1e6;//pool2
+		e[7] = 0;//recylced
+		e[8] = e[2] * e[4];//usd_mints
+		e[9] = e[3] * e[4];//usd_dists
+		e[10] = e[5]* e[4];//usd_team
+		e[11] = e[6]* e[4];//usd_pool2
+		e[12] = e[7]* e[4];//usd_recycled
+	}
+	if(e[1]==1703116800*1e3) { // ep 12
+		e[5] = e[3] * 0.543; //team
+		e[10] = e[9] * 0.543; //usd_team
+		e[7] = e[3]+e[5]+e[6] - e[2] //recycled
+		e[12] = e[9]+e[10]+e[11] - e[8] //usd_recycled
+	}
+	if(e[1]==1703721600*1e3) { // ep 12
+		e[5] = e[3] * 0.115; //team
+		e[10] = e[9] * 0.115; //usd_team
+		e[7] = e[3]+e[5]+e[6] - e[2] //recycled
+		e[12] = e[9]+e[10]+e[11] - e[8] //usd_recycled
+	}
+	return e;
+});
+ehd.reverse();
+ehd = ehd.map( (e,i,a) =&gt; {
+	e[13] = ( i == 0 ? e[2] : e[2] + a[i-1][13] );	//totalSupply = totalMinted	13
+	e[14] = ( i == 0 ? e[8] : e[8] + a[i-1][14] );	//usd_totalMinted	14
+	e[15] = ( e[13] * e[2] ); //FDV = totalSupply x price	15
+	e[16] = ( i == 0 ? e[7] : e[7] + a[i-1][16] );	//recycled	16
+	e[17] = ( i == 0 ? e[12] : e[12] + a[i-1][17] );	//usd_recycled	17
+	return e;
+})
+//.map( j =&gt;
+// 	j.map( (e,i) =&gt; {
+//		if(i&gt;1&amp;&amp;i!=4) { return e.toFixed(); }
+//		else { return e; }
+//	})
+//);
+
+
+
+eo_eh = {
+  		...eo0 ,
+  		title: {left: 'center', top: 10, text: "Historical Emissions (in Tokens)"},
+  		series: [
+		{
+  			name: 'Freshly Minted',
+  			type: 'bar',
+  			stack: 'Distributions',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[2].toFixed()] )),
+		},
+		{
+  			name: 'Recycled',
+  			type: 'bar',
+  			stack: 'Distributions',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[7].toFixed()] )),
+		},
+		{
+  			name: 'To Team',
+  			type: 'bar',
+  			stack: 'Distributions',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[5].toFixed()] )),
+		},
+		{
+  			name: 'For Pool2',
+  			type: 'bar',
+  			stack: 'Distributions',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[6].toFixed()] )),
+		},
+		{
+  			name: 'Total Supply',
+  			type: 'line',
+  			yAxisIndex: 1,
+  			stack: 'Supplies',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[13].toFixed()] )),
+		},
+		{
+  			name: 'Total Recycled',
+  			type: 'line',
+  			yAxisIndex: 1,
+  			stack: 'Supplies',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[16].toFixed()] )),
+		},
+		{
+  			name: 'Total Distributions',
+  			type: 'scatter',
+  			yAxisIndex: 1,
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , (i[13]+i[16]).toFixed() ] )),
+		},
+  		],
+  		dataZoom: [
+		{
+  			type: 'slider',
+  			show: true,
+  			xAxisIndex: [0],
+  			start: ehd.length - 10,
+  			end: ehd.length
+		},
+		{
+  			type: 'inside',
+  			xAxisIndex: [0],
+		},
+  		],
+  		legend: {
+		...eo0.legend,
+		show:true,
+  		}
+}
+echart1 = echarts.init(document.getElementById('echart-1'),'dark'); echart1.setOption(eo_eh);
+
+
+
+
+eo_ehu = {
+  		...eo0 ,
+  		title: {left: 'center', top: 10, text: "Historical Emissions (in USD)"},
+  		series: [
+		{
+  			name: 'Freshly Minted',
+  			type: 'bar',
+  			stack: 'Total Distribution',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[8].toFixed()] )),
+		},
+		{
+  			name: 'Recycled',
+  			type: 'bar',
+  			stack: 'Total Distribution',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[12].toFixed()] )),
+		},
+		{
+  			name: 'To Team',
+  			type: 'bar',
+  			stack: 'Total Distribution',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[10].toFixed()] )),
+		},
+		{
+  			name: 'For Pool2',
+  			type: 'bar',
+  			stack: 'Total Distribution',
+  			emphasis: { focus: 'series' },
+  			data: ehd.map(i=&gt;( [i[1] , i[11].toFixed()] )),
+		},
+  		],
+  		dataZoom: [
+		{
+  			type: 'slider',
+  			show: true,
+  			xAxisIndex: [0],
+  			start: ehd.length - 10,
+  			end: ehd.length
+		},
+		{
+  			type: 'inside',
+  			xAxisIndex: [0],
+		},
+  		],
+  		legend: {
+		...eo0.legend,
+		show:true,
+  		}
+}
+
+
+
+echart2 = echarts.init(document.getElementById('echart-2'),'dark'); echart2.setOption(eo_ehu);
+</code></pre></div></div> <p>}</p> <p>main() &lt;/script&gt;</p> <p>&lt;/div&gt;</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="sample-posts-2"/><category term="scale"/><category term="liquidity"/><summary type="html"><![CDATA[SCALE Emissions]]></summary></entry><entry><title type="html">Introducing, Scale.Farm</title><link href="https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch/" rel="alternate" type="text/html" title="Introducing, Scale.Farm"/><published>2025-08-30T00:00:00+00:00</published><updated>2025-08-30T00:00:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/scale-farm-relaunch/"><![CDATA[<h1 id="news-from-the-frontline">NEWS from the frontline!</h1> <p>“Deep in the trenches” by TRENCHES.Fund</p> <p>Trenches.Fund has wholly acquired Scale™ in a mutually beneficial deal with Equalizer, structured in a way that lets Equalizer team focus on Sonic, dedicating towards MEGA: Make Equalizer Great Again, while we craft a better future for every SCALE holder in the trenches!</p> <p>As part of the takeover process, the new Scale treasury has received $30,000 in USDC along with all the SCALE, veSCALE &amp; SCALE LP from Equalizer’s Treasury, as well as complete ownership to all the code, infra &amp; other related hard &amp; soft assets such as socials, other accounts, etc. and everything else.</p> <p>Equalizer on Sonic will get read access to all the updates (we’ve already been working on closely) made to the existing Equalizer v5 frontend codebase, including the Manual CL UI, from the new Scale Team, until Scale migrates to a newer app. The ownership of all the remaining USDC, ETH &amp; OP, including grants from Optimism Foundation, held by the previous Equalizer Treasury on Base shall remain with Equalizer Treasury. This ensures ample cash reserves to help fund future needs of Equalizer Team on Sonic.</p> <p>All-in-all, this new arrangement will make Equalizer much stronger than before, freeing up resources from maintaining presence on Base to channel all efforts on gaining back its market share on Sonic.</p> <p>We want to say a special Thank You to Hoops and the Equalizer team for the guidance &amp; making this deal possible.</p> <p>A long-list of changes has been lined up for improving Scale’s financial model, aimed towards sustainable long-term value preservation, especially as we enter the Tail Emissions phase at the onset of our 3rd Year in the coming weeks.</p> <p>Exciting times &amp; more alpha ahead!</p> <p>visit Scale Farm here <a href="https://scale.farm">click this</a></p> <p><img src="https://scale.farm/scale/scale-police-banner.png" alt=""/></p>]]></content><author><name></name></author><category term="news"/><summary type="html"><![CDATA[A new era begins ― Trenches.Fund is launching Scale.Farm]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://alshedivat.github.io/news/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2025/plotly</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
   "data": [
     {
@@ -104,16 +391,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="045cc45e-9060-430b-9f9d-6e0dd3c5cc64" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="045cc45e-9060-430b-9f9d-6e0dd3c5cc64" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="526fff4e-899d-45a3-8433-6642773440aa" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="526fff4e-899d-45a3-8433-6642773440aa" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="bb61a2ed-0eda-42a4-b93f-3a17e9129e26" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="bb61a2ed-0eda-42a4-b93f-3a17e9129e26" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="89ea564d-b474-401e-978f-c2fb5cab70da" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="89ea564d-b474-401e-978f-c2fb5cab70da" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="ac8345ba-c87a-4ae8-9fbe-e2cf221e6be4" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="ac8345ba-c87a-4ae8-9fbe-e2cf221e6be4" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/news/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/news/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="3c1c781b-e0ee-48e1-9333-bf07df61bf55" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="3c1c781b-e0ee-48e1-9333-bf07df61bf55" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/news/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/news/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -219,448 +506,4 @@ Content 2
 \ENDPROCEDURE
 \end{algorithmic}
 \end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/news/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/news/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/news/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry></feed>
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry></feed>

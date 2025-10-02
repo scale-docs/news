@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/projects/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/projects/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -81,6 +88,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/news/blog/2025/scale-liquidity/";
+          
+        },
+      },{id: "post-scale-emissions",
+        
+          title: "SCALE Emissions",
+        
+        description: "SCALE Emissions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2025/emissions/";
           
         },
       },{id: "post-introducing-scale-farm",
