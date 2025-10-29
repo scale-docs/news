@@ -266,6 +266,193 @@ ninja.data = [{
             window.location.href = "/news/blog/2023/tikzjax/";
           
         },
+      },{id: "post-legal-disclaimer",
+        
+          title: "Legal Disclaimer",
+        
+        description: "Legal disclaimer and risk disclosure for using Scale.Farm and Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/legal-disclaimer/";
+          
+        },
+      },{id: "post-team",
+        
+          title: "Team",
+        
+        description: "Meet the team behind Scale.Farm and Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/team/";
+          
+        },
+      },{id: "post-scale",
+        
+          title: "Scale",
+        
+        description: "Scale logo and icon assets in various formats (SVG and PNG).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/scale/";
+          
+        },
+      },{id: "post-brand-kit",
+        
+          title: "Brand Kit",
+        
+        description: "Brand assets and visual identity resources for Scale.Farm and Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/brand-kit/";
+          
+        },
+      },{id: "post-trading-for-devs-amp-bots",
+        
+          title: "Trading (For Devs &amp; Bots!)",
+        
+        description: "Technical guide for developers and bots to integrate with Scale.Farm&#39;s Solidly-based router and swap functions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/trading-for-devs/";
+          
+        },
+      },{id: "post-first-epoch-after-listing",
+        
+          title: "First Epoch After Listing",
+        
+        description: "Steps to distribute emissions for the first epoch after listing your token.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/first-epoch-after-listing/";
+          
+        },
+      },{id: "post-listing-special-tokens-on-scale-farm",
+        
+          title: "Listing Special Tokens on Scale.Farm",
+        
+        description: "Guide for listing exotic tokens like rebasing, fee-on-transfer, and ERC404 tokens on Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/fees-on-transfer/";
+          
+        },
+      },{id: "post-claiming-trade-fees-rewards",
+        
+          title: "Claiming Trade Fees Rewards",
+        
+        description: "How liquidity providers can claim their 100% trade fee rewards from pools.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/claim-fees/";
+          
+        },
+      },{id: "post-list-your-tokens",
+        
+          title: "List Your Tokens",
+        
+        description: "A guide for new projects to onboard their tokens onto Scale.Farm&#39;s DEX, Gauges, Voting &amp; Beyond!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/list-your-token/";
+          
+        },
+      },{id: "post-treasury",
+        
+          title: "Treasury",
+        
+        description: "Treasury wallet addresses and multisig information for Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/treasury/";
+          
+        },
+      },{id: "post-contracts",
+        
+          title: "Contracts",
+        
+        description: "Deployed contract addresses for Scale.Farm on Base network.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/contracts/";
+          
+        },
+      },{id: "post-gauge-voting-amp-bribes",
+        
+          title: "Gauge Voting &amp; Bribes",
+        
+        description: "Guide to gauge voting strategies, bribes, and reward types including emissions, fees, and bribes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/gauge-voting-and-bribes/";
+          
+        },
+      },{id: "post-tokenomics",
+        
+          title: "Tokenomics",
+        
+        description: "Details about SCALE and veSCALE tokenomics, distribution, airdrop, and weekly emissions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/tokenomics/";
+          
+        },
+      },{id: "post-liquidity-pools",
+        
+          title: "Liquidity Pools",
+        
+        description: "Deep dive into Scale.Farm&#39;s liquidity pool system, fees, and different pool types from v1 to v5.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/liquidity-pools/";
+          
+        },
+      },{id: "post-launch-details",
+        
+          title: "Launch Details",
+        
+        description: "Details about Scale.Farm&#39;s expansion to BASE Chain, distribution, and launch liquidity sequence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/launch-details/";
+          
+        },
+      },{id: "post-an-overview",
+        
+          title: "An Overview",
+        
+        description: "Overview of SCALE, the native token of Scale.Farm.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/overview/";
+          
+        },
+      },{id: "post-welcome-to-scale-farm",
+        
+          title: "Welcome to Scale Farm",
+        
+        description: "Introduction to Scale.Farm - a  decentralized exchange on Base utilizing the Solidly model.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/news/blog/2023/welcome/";
+          
+        },
       },{id: "post-a-post-with-bibliography",
         
           title: "a post with bibliography",
